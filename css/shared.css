@@ -55,7 +55,6 @@ html {
 
   .left-nav {
     width: 250px;
-    height: 100%;
     background-color: #1c232d;
   }
 
@@ -82,5 +81,11 @@ html {
 
 .content {
     background-color: #25313d;
-    height: 250px;
+    padding-bottom: 40px;
+}
+
+.content-wrapper {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 800px;
 }
