@@ -56,6 +56,29 @@ html {
   .left-nav {
     width: 250px;
     background-color: #1c232d;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  @media (max-width: 768px) {
+    .left-nav {
+      display: none;
+      transform: translateX(-100%); 
+    }
+    .left-nav--active {
+      display: block;
+      transform: translateX(0); 
+    }
+    .header__btn {
+      width: 25px;
+      height: 25px;
+      background: #204366;
+      position: relative;
+      float: left;
+      margin: 12px 0 0 20px;
+      z-index: 99;
+    }
+
   }
 
   .title {
@@ -85,7 +108,50 @@ html {
 }
 
 .content-wrapper {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 55%;
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  .content-wrapper {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    width: 65%;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-wrapper {
     padding-top: 20px;
     margin: 0 auto;
-    width: 800px;
+    width: 55%;
+  }
+}
+
+/* media example */
+@media (min-width: 992px) {
+  .logo {
+    width: 121px;
+  }
+  .logo__image {
+    width: 121px;
+    padding-top: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .location {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .location--mobile {
+    display: none;
+  }
 }

@@ -14,9 +14,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
 
-
-
     <link rel="shortcut icon" href="./favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -492,6 +491,7 @@
         </nav>
         <div class="right-wrapper">
             <div class="header">
+                <a href="#" class="header__btn"></a>
                 <ul class="header__view-selector">
                     <li>
                         <p class="active">Обзор</p>
@@ -518,9 +518,9 @@
                         и административных условий. Повседневная практика показывает, что рамки и место обучения кадров позволяет
                         выполнять важные задания по разработке соответствующий условий активизации.
                         <br>
-                        <br> Задача организации, в особенности же реализация намеченных плановых заданий влечет за собой процесс
-                        внедрения и модернизации дальнейших направлений развития. Идейные соображения высшего порядка, а
-                        также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа
+                        <br> Задача организации, в особенности же реализация намеченных плановых заданий влечет за собой
+                        процесс внедрения и модернизации дальнейших направлений развития. Идейные соображения высшего порядка,
+                        а также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа
                         дальнейших направлений развития. Значимость этих проблем настолько очевидна, что начало повседневной
                         работы по формированию позиции позволяет выполнять важные задания по разработке дальнейших направлений
                         развития. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
@@ -569,7 +569,7 @@
                     <!-- HTML code -->
                     <div class="content__code">
                         <p>
-                            <b>html code:
+                            <b>HTML code:
                                 <br>
                                 <br>
                             </b>
@@ -640,6 +640,32 @@
                         </p>
                     </div>
 
+                    <!-- CSS -->
+                    <div class="content__code">
+                        <code>
+                                <p>
+                                    <b>CSS code:
+                                    <br>
+                                    <br>
+                                    </b>
+                                </p> 
+                                <span class="content__code_property-value">
+                                .content__quote cite
+                                </span>
+                                &nbsp;
+                                <span class="content__code_tag-sign">{</span>
+                                    <br>
+                                    <span class="content__code_property">font-style:</span>
+                                    <span class="content__code_property-value">normal;</span>
+                                    <br>
+                                    <span class="content__code_property">font-weight:</span>
+                                    <span class="content__code_property-value">300;</span> 
+                                    <br>           
+                                <span class="content__code_tag-sign">}</span>    
+
+                            </code>
+                    </div>
+
 
 
                 </div>
@@ -647,7 +673,12 @@
             <footer class="footer"></footer>
         </div>
     </div>
-
+    <script type="text/javascript">
+        $('.header__btn').on('click', function (e) {
+            e.preventDefault();
+            $('.left-nav').toggleClass('left-nav--active');
+        })
+    </script>
 </body>
 
 </html>
