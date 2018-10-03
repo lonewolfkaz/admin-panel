@@ -49,10 +49,12 @@
 
 .links-content {
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     font-size: 0.875rem;
     list-style: none;
     position: relative;
+
 }
 
 .links-content > li {
