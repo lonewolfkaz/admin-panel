@@ -110,96 +110,10 @@
 .content__text {
     color: #8c8d8e;
     line-height: 1.4rem;
-    margin: 40px 0 40px 0; 
+    margin: 0; 
 }
 
 .content-wrapper img {
     max-width: 100%;
 }
 
-.content__quote {
-    margin: 0;
-    background-color: #1c232d;
-    color: #8c8d8e;
-    padding: 30px;
-    margin-bottom: 40px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
-    }
-    .content__quote:before {
-    content: "\f10d";
-    font-family: FontAwesome;
-    position: absolute;
-    z-index: 2;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 14px;
-    color: #8c8d8e;
-    font-size: 20px;
-    background: #1c232d;
-    padding: 0 15px;
-    }
-    .content__quote:after {
-    content: "";
-    position: absolute;
-    left: 15px;
-    top: 20px;
-    right: 15px;
-    height: 4px;
-    border-top: 1px dotted #2b333e;
-    border-bottom: 1px dotted #2b333e;
-    }
-    .content__quote p {
-
-    letter-spacing: .05em;
-    line-height: 1.4;
-    font-weight: 700;
-    color: #dfe0e1;
-    }
-    .content__quote cite {
-    font-style: normal;
-    font-weight: 300;
-    }
-
-    .content__code {
-        font-family: "Roboto", sans-serif;
-        line-height: 1.4;
-        color: #8c8d8e;
-        background-color: #1c232d;
-        padding: 30px;
-        border-left: 3px solid #348cd6;
-        margin-bottom: 40px;
-        -webkit-border-top-right-radius: 5px;
-        -webkit-border-bottom-right-radius: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
-
-    .content__code code {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-    }
-
-        .content__code p {
-        margin: 0;
-        }
-
-        .content__code_tag {
-        color: #348cd6;
-        }
-
-        .content__code_tag-sign {
-        color: #49595f;
-        }
-
-        .content__code_property {
-        color: #64cafb;
-        }
-
-        .content__code_property-value {
-        color: #b88b70;
-        }
