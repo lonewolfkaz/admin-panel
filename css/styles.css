@@ -18,7 +18,7 @@
 }
 
 .title__logo > svg {
-    fill: #a0a0a0;
+    fill: #8394a6;
     opacity: 0.5;
 }
 
@@ -28,7 +28,7 @@
      
 }
 .links-title > h2 {
-    color: #a0a0a0;
+    color: #8394a6;
     font-size: 0.75rem;
     text-transform: uppercase;
     margin:10px 0 0 20px; 
@@ -43,7 +43,7 @@
 }
 
 .links-title__img > svg {
-    fill: #8c8d8e;
+    fill: #8394a6;
     opacity: 0.5;
 }
 
@@ -63,7 +63,7 @@
 
 .links-content > li > a {
     text-decoration: none;
-    color: #a0a0a0;
+    color: #8394a6;
     font-weight: 700;
 }
 
@@ -93,6 +93,35 @@
     color: #dfe0e1;
     border-bottom: 2px solid #3498db;
 }
+
+.header__btn-add {
+    width: 110px;
+    height: 30px;
+    background: #39434e;
+    display: inline-block;
+    float: right;
+    margin: 10px 20px 0 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .header__btn-add:hover {
+    opacity: 0.8;
+  }
+
+  .header__btn-add__btn-item {
+    font-family: "Roboto", sans-serif;
+    color: #dfe0e1;
+    text-transform: uppercase;
+    font-size: 0.7777rem;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    cursor: pointer;
+  }
 
 .content__title {
     margin: 10px 0 20px 0;
