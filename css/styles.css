@@ -142,8 +142,17 @@
 
 .news-list__item {
     font-family: "Roboto", sans-serif;
-    background-image: url("./img/img__example.png");
-    background: #66b3ff;
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img__example.png");
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img__example.png");
+    
+    
+    background-position: center center; 
     color: #dfe0e1;
     margin-bottom: 20px;
     max-width: 100%;
@@ -160,10 +169,10 @@
     margin: 0;
     display: inline-block;
     font-size: 0.875rem;
+    opacity: 0.5;
   }
   
   .news-list__item__title {
-    background: #3498db;
     max-height: 45px;
     max-width: 90%;
     font-size: 1rem;
@@ -176,7 +185,6 @@
   }
 .news-list__item__icons {
     position: absolute;
-    background: #3498db;
     top: 20px;
     right: 20px;    
 }
@@ -185,7 +193,6 @@
     width: 15px;
     height: 15px;
     margin-left: 20px;
-    background: #a0a0a0;
     display: inline-block;
     opacity: 0.5;
 }
@@ -197,7 +204,6 @@
 .soc-icons {
     width: 175px;
     min-height: 30px;
-    background: #3498db;
     margin-top: 10px;
 }
 
@@ -206,6 +212,5 @@
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    background: #a0a0a0;
     opacity: 0.5;
 }
