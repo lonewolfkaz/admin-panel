@@ -150,8 +150,7 @@
     -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
     -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
     url("../img/img__example.png");
-    
-    
+        
     background-position: center center; 
     color: #dfe0e1;
     margin-bottom: 20px;
@@ -164,6 +163,114 @@
     border-radius: 5px;
     position: relative;
   }
+/* news-list img */
+.news-list__item1 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site1.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site1.jpg") !important;
+
+}
+
+.news-list__item2 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site2.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site2.jpg") !important;
+
+}
+
+.news-list__item3 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site3.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site3.jpg") !important;
+
+}
+
+.news-list__item4 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site4.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site4.jpg") !important;
+
+}
+
+.news-list__item5 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site5.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site5.jpg") !important;
+
+}
+
+.news-list__item6 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site6.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site6.jpg") !important;
+
+}
+
+.news-list__item7 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site7.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site7.jpg") !important;
+
+}
+
+.news-list__item8 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site8.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site8.jpg") !important;
+
+}
+
+.news-list__item9 { 
+    background-image: 
+    -webkit-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -webkit-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site9.jpg") !important;
+    background-image: 
+    -moz-linear-gradient(top, rgba(17,21,24,0), rgba(17,21,24,1)),
+    -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
+    url("../img/img_news-site9.jpg") !important;
+
+}
   
   .news-list__item__date {
     margin: 0;
