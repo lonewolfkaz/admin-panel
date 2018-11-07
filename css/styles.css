@@ -42,9 +42,10 @@
     margin: 5px 10px 0 0;
 }
 
-.links-title__img > svg {
+.links-title__img > img {
     fill: #8394a6;
     opacity: 0.5;
+   
 }
 
 .links-content {
@@ -95,8 +96,14 @@
 }
 
 .header__btn-add {
+    font-family: "Roboto", sans-serif;
+    color: #dfe0e1;
+    text-transform: uppercase;
+    font-size: 0.7777rem;
+    text-decoration: none;
     width: 110px;
     height: 30px;
+    padding: 8px 0 0 21px;
     background: #39434e;
     display: inline-block;
     float: right;
@@ -104,24 +111,11 @@
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    position: relative;
   }
   .header__btn-add:hover {
     opacity: 0.8;
   }
 
-  .header__btn-add__btn-item {
-    font-family: "Roboto", sans-serif;
-    color: #dfe0e1;
-    text-transform: uppercase;
-    font-size: 0.7777rem;
-    background: none;
-    border: none;
-    position: absolute;
-    top: 20%;
-    left: 16%;
-    cursor: pointer;
-  }
 
 .content__title {
     margin: 10px 0 20px 0;

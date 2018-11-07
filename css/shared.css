@@ -70,7 +70,7 @@ html {
     z-index: 99;
   }
 
-  .header__btn > svg {
+  .header__btn > img {
     fill: #66b3ff;
     margin-top: 5px;
   }
