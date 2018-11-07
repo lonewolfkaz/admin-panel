@@ -142,6 +142,7 @@
 
 .news-list__item {
     font-family: "Roboto", sans-serif;
+    background-image: url("./img/img__example.png");
     background: #66b3ff;
     color: #dfe0e1;
     margin-bottom: 20px;
@@ -162,12 +163,16 @@
   }
   
   .news-list__item__title {
+    background: #3498db;
+    max-height: 45px;
+    max-width: 90%;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.4;
     margin: 0;
     position: absolute;
     bottom: 20;
+    overflow: hidden;
   }
 .news-list__item__icons {
     position: absolute;
@@ -182,4 +187,19 @@
     margin-left: 20px;
     background: #a0a0a0;
     display: inline-block;
+}
+
+.soc-icons {
+    width: 175px;
+    min-height: 30px;
+    background: #3498db;
+    margin-top: 10px;
+}
+
+.soc-icons__item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: #a0a0a0;
 }
