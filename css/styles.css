@@ -73,6 +73,36 @@
     cursor: default;
 }
 
+.btn-logout {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+.btn-logout__item {
+    display: block;
+    width: 100%;
+    color: #dfe0e1;
+    font-size: 0.7777rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #39434e;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.btn-logout__item:hover {
+    opacity: 0.9;
+}
+
+
+
 /* header */
 .header__view-selector {
     margin: 0;
@@ -325,3 +355,6 @@
     margin-right: 10px;
     opacity: 0.5;
 }
+
+
+
