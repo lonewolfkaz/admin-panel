@@ -129,15 +129,16 @@
     border-bottom: 2px solid #3498db;
 }
 
-.header__btn-add {
+.action-btn {
     font-family: "Roboto", sans-serif;
     color: #dfe0e1;
     text-transform: uppercase;
+    text-align: center;
     font-size: 0.7777rem;
     text-decoration: none;
     width: 110px;
     height: 30px;
-    padding: 8px 0 0 21px;
+    padding-top: 8px;
     background: #39434e;
     display: inline-block;
     float: right;
@@ -146,8 +147,25 @@
     -moz-border-radius: 15px;
     border-radius: 15px;
   }
-  .header__btn-add:hover {
+
+  .action-btn--save {
+    background-color: #66BB6A;
+  }
+
+  .action-btn--cancel {
+    background: none;
+    color: #8394a6;
+    font-weight: 500;
+  }
+
+
+
+  .action-btn:hover {
     opacity: 0.8;
+  }
+
+  .action-btn--disabled {
+    opacity: 0.3;
   }
 
 

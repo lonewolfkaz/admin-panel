@@ -94,8 +94,6 @@ html {
   .header__title {
     font-family: "Roboto Light", sans-serif;
     font-size: 1.125rem;
-    position: absolute;
-    left: 45%;
     margin: 0;
     padding: 0;
     padding-top: 15px; 
@@ -124,13 +122,21 @@ html {
   }
 
   .header {
-    position: relative;  
+    position: relative;
+    text-align: center;
     width: 100%;
     height: 50px;
     background-color: #25313d;
     -webkit-box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
     box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      text-align: left;
+    }
+
   }
 
 .content {
