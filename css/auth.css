@@ -1,0 +1,120 @@
+* {
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    -o-user-select: none; 
+    -webkit-user-select: none; 
+}
+
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    background-color:#1c232d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;  
+    align-content: center;
+    -webkit-align-items: center;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    background-color: #25313d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px 0 40px 0;
+}
+
+.auth-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #dfe0e1;
+    margin-bottom: 20px;
+}
+
+.auth-input {
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.auth-input__login {
+    width: 100%;
+    color: #dfe0e1;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:#25313d;
+    border: 1px solid #39434e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+}
+
+.auth-input__password {
+    width: 100%;
+    color: #dfe0e1;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:#25313d;
+    border: 1px solid #39434e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+}
+
+.auth-input__password:focus , 
+.auth-input__login:focus {
+    border: 1px solid #42a5f5;
+}
+
+
+.auth-input__btn {
+    width: 100%;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #dfe0e1;
+    text-transform: uppercase;
+    font-size: 0.7777rem;
+    background-color:#66BB6A;
+    border: none;
+    padding: 5px 0 5px 0;
+}
+
+.auth-input__btn:hover {
+    opacity: 0.9;
+}
+
+.auth-input__btn--disabled {
+    opacity: 0.3;
+}
+
+.auth-input__login::placeholder {
+    color: #8394a6;
+}
+
+.auth-input__password::placeholder {
+    color: #8394a6;
+}
+
+.auth-logo-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
