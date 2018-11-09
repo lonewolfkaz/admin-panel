@@ -45,24 +45,24 @@ html {
   }
   
   .wrapper {
-    width: 100%;
-    height: 100%;
     display: flex;
+    height: 100%;
+    width: 100%;
   }
 
   .left-nav {
-    width: 250px;
     background-color: #1c232d;
     position: relative;
     transition: 0.5s;
+    width: 250px;
   }
 
   .header__btn {
-    width: 25px;
-    height: 25px;
-    position: relative;
     float: left;
+    height: 25px;
     margin: 12px 0 0 20px;
+    position: relative;
+    width: 25px;
     z-index: 99;
   }
 
@@ -81,55 +81,55 @@ html {
       transform: translateX(0); 
     }
     .header__btn {
-      width: 25px;
-      height: 25px;
-      position: relative;
       float: left;
+      height: 25px;
       margin: 12px 0 0 20px;
+      position: relative;
+      width: 25px;
       z-index: 99;
     }
 
   }
 
   .header__title {
+    color: #dfe0e1;
+    display: inline-block;
     font-family: "Roboto Light", sans-serif;
     font-size: 1.125rem;
     margin: 0;
     padding: 0;
     padding-top: 15px; 
-    color: #dfe0e1;
-    display: inline-block;
   }
 
   @media (max-width: 768px) {
     .header__title {
-      position: relative;
       left: 0;
       margin-left: 10px;
+      position: relative;
     }
 
   }
 
   .title {
-    height: 50px;
-    border-bottom: 1px solid #2b333e;
     align-items: center;
+    border-bottom: 1px solid #2b333e;
+    height: 50px;
   }
 
   .right-wrapper {
-    width: 100%;
     background-color: #25313d;
+    width: 100%;
   }
 
   .header {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 50px;
     background-color: #25313d;
     -webkit-box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
     box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
+    height: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
   }
 
   @media (max-width: 768px) {
@@ -172,16 +172,16 @@ html {
     width: 121px;
   }
   .logo__image {
-    width: 121px;
     padding-top: 13px;
+    width: 121px;
   }
 }
 
 @media (min-width: 768px) {
   .location {
+    align-content: center;
     display: flex;
     justify-content: center;
-    align-content: center;
   }
   .location--mobile {
     display: none;
