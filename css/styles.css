@@ -417,10 +417,24 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     color: #dfe0e1;
-    font-weight: 400;
+    font-size: 0.875rem;
+    font-weight: 500;
     margin-bottom: 20px;
     padding: 10px 0 10px 20px;
     width: 100%;
+}
+
+.input--title {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.input--description {
+    height: 85px;
+}
+
+.input--content {
+    height: 400px;
 }
 
 .input:focus {
@@ -429,6 +443,29 @@
 
 .input::placeholder {
     color: #8394a6;
+}
+
+.form__wrapper {
+    position: relative;
+}
+
+.form__wrapper__limit {
+    color: #8394a6;
+    font-size: 0.875rem;
+    font-family: "Roboto Light", sans-serif;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.form__wrapper__title {
+    color: #8394a6;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 0.75rem;
+    left: 20px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
 }
 
 .platform {
