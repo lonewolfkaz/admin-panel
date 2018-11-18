@@ -608,3 +608,129 @@
     -moz-linear-gradient(bottom, rgba(17,21,24,0), rgba(17,21,24,1)),
     url("../img/img_templates-others.jpg") !important;
 }
+
+/* pop up */
+
+.popup-wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 500;
+}
+
+.popup {
+    background-color: #25313d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 600px;
+}
+
+.popup__header {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
+    box-shadow: 3px 5px 25px 0px rgba(0,0,0,0.35);
+    height: 40px;
+}
+
+.popup__header__title {
+    color: #8394a6;
+    display: inline-block;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.popup__header__icons {
+    float: right;
+    height: 15px;
+    margin-right: 20px;
+    margin-top: 13px;
+    width: 105px;
+}
+
+.popup__header__icons-item {
+    display: inline-block;
+    float: left;
+    height: 15px;
+    margin-left: 20px;
+    width: 15px;
+}
+
+.popup__content-wrapper {
+    padding: 20px 20px 0 20px; 
+}
+
+.popup__content__img {
+    background-color: #3498db;
+    background-image: url("../img/img_news-site1.jpg");
+    background-position: center center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.popup__content__date {
+    color: #8394a6;
+    font-size: 0.875rem;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.popup__content__title {
+    color: #dfe0e1;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.popup__content__block {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.popup__content__block__soc-icons {
+    display: inline-block;
+    margin: 0;
+}
+
+.popup__content__category {
+    float: right;
+    height: 20px;
+    margin-top: 6px;
+    max-width: 50%;
+    overflow: hidden;
+    text-align: right;
+}
+
+.popup__content__category-item {
+    color: #8394a6;
+    display: inline-block;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.popup__content__text {
+    color: #8394a6;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
