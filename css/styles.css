@@ -420,7 +420,7 @@
     font-size: 0.875rem;
     font-weight: 500;
     margin-bottom: 20px;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 15px;
     width: 100%;
 }
 
@@ -462,7 +462,7 @@
     color: #8394a6;
     font-family: "Roboto Light", sans-serif;
     font-size: 0.75rem;
-    left: 20px;
+    left: 15px;
     position: absolute;
     text-transform: uppercase;
     top: 10px;
