@@ -177,6 +177,10 @@
     width: 110px;
   }
 
+  .action-btn--reset {
+    margin: 0;
+  }
+
   .action-btn--save {
     background-color: #66BB6A;
   }
@@ -653,6 +657,15 @@
     margin: 0;
     margin-left: 20px;
     margin-top: 13px;
+}
+
+.popup__header__drop-down {
+    margin: 5px 0 0 20px;
+}
+
+.popup__header__btns-wrapper {
+    margin-right: 20px;
+    padding-top: 5px;
 }
 
 .popup__header__icons {
