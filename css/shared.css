@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     font-size:16px;
+    height: 100%;
   }
   
   *,
@@ -25,7 +26,11 @@ html {
   body {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
+    height: 100%;
     min-width: 302px;
+    display: flex;
+    min-height: 100vh;    
+    flex-direction: column;    
   }
 
   nav {
@@ -52,6 +57,8 @@ html {
 
   .left-nav {
     background-color: #1c232d;
+    height: 100%;
+    min-height: 100%;
     position: relative;
     transition: 0.5s;
     width: 250px;

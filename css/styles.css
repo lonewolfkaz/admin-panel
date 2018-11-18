@@ -366,7 +366,7 @@
   }
   
   .news-list__item__title {
-    bottom: 20;
+    bottom: 20px;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.4;
