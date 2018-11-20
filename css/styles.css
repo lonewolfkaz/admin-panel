@@ -617,10 +617,14 @@
 
 .popup-wrapper {
     background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    height: 100%;
-    padding-top: 20px;
+    min-height: 100%;
+    left: 0;
+    overflow: auto;
+    padding: 20px 0;
     position: absolute;
+    top: 0;
     width: 100%;
     z-index: 500;
 }
@@ -745,5 +749,6 @@
     font-size: 0.875rem;
     line-height: 1.4;
     margin: 0;
+    margin-bottom: 20px;
 }
 
